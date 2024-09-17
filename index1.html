@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Layout</title>
+    <style>
+      *{
+    box-sizing: content-box;
+}
+.distorted {
+    width: 200px;
+    height: auto;
+}
+.original {
+    width: 300px;
+    height: auto;
+}
+.tall{
+    width: 200px;
+    height: 400px;
+}
+.row-distorted{
+    display: flex;
+}
+.row-original{
+    display: flex;
+}  
+    </style>
+</head>
+<body>
+
+    <!-- Top row (first row) -->
+    <div class="">
+        <img class="distorted" src="img2.jpg" alt="Image 1">
+        <img class="tall" src="img1.jpg" alt="Image 2">
+    </div>
+
+    <!-- Bottom row (second row) -->
+    <div class="">
+        <img class="original" src="img22.jpg" alt="Image 3">
+        <img class="original" src="img11.jpg" alt="Image 4">
+    </div>
+
+</body>
+</html>

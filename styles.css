@@ -1,0 +1,21 @@
+*{
+    box-sizing: content-box;
+}
+.distorted {
+    width: 200px;
+    height: auto;
+}
+.original {
+    width: 300px;
+    height: auto;
+}
+.tall{
+    width: 200px;
+    height: 400px;
+}
+.row-distorted{
+    display: flex;
+}
+.row-original{
+    display: flex;
+}
